@@ -1,0 +1,165 @@
+.arena {
+  background-color: wheat;
+  border: 10px solid grey;
+  border-left-color: rgba(240, 87, 87, 0.637);
+  border-right-color: rgba(0, 0, 255, 0.253);
+  border-left-width: 20px;
+  border-right-width: 20px;
+  border-radius: 5px;
+  height: 300px;
+  width: auto;
+  overflow: hidden;
+  align-content: center;
+}
+
+#gameTitle {
+  font-size: 30px;
+  text-align: center;
+  font-family: "Audiowide", cursive;
+  padding: 20px;
+  border: 5px solid black;
+  border-radius: 10px;
+  background-color: powderblue;
+  margin-bottom: 5px;
+}
+
+#p1banner {
+  position: relative;
+  float: left;
+  height: 97%;
+  width: 70px;
+  border: 2px solid red;
+  border-radius: 5px;
+  margin: 2px;
+  writing-mode: vertical-lr;
+  text-align: center;
+  font-family: "Audiowide", cursive;
+  background-color: powderblue;
+}
+#p1banner23 {
+  position: relative;
+  top: 43%;
+  float: left;
+  height: 15%;
+  width: 70px;
+  margin-left: 15px;
+  /* background-color: powderblue; */
+  background-image: url("Images/p1Fire.png");
+}
+
+#p1 {
+  position: relative;
+  float: left;
+  top: 40%;
+  height: 70px;
+  width: 70px;
+  margin-left: 20px;
+}
+
+#p2 {
+  position: relative;
+  float: right;
+  top: 40%;
+  height: 70px;
+  width: 70px;
+  margin-right: 50px;
+}
+
+#p2banner {
+  position: relative;
+  float: right;
+  height: 97%;
+  width: 70px;
+  border: 2px solid blue;
+  border-radius: 5px;
+  margin: 2px;
+  writing-mode: vertical-lr;
+  text-align: center;
+  font-family: "Audiowide", cursive;
+  background-color: powderblue;
+}
+
+#p2banner24 {
+  position: relative;
+  float: right;
+  top: 43%;
+  height: 70px;
+  width: 70px;
+  margin-right: 40px;
+}
+
+#ShootBtn {
+  background-color: red; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: "Audiowide", cursive;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.Score-Board {
+  border: 1px grove grey;
+  background-color: black;
+  padding: 5px;
+  display: grid;
+  grid-template-columns: 35% 35% auto;
+  border-radius: 15px;
+}
+
+.grid-item {
+  background-color: wheat;
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 20px;
+}
+
+.result {
+  border: 1px solid black;
+  background-color: black;
+  margin-top: 10px;
+  padding: 1px;
+  display: grid;
+  font-weight: bold;
+  border-radius: 15px;
+}
+
+.result-item {
+  background-color: powderblue;
+  border-radius: 15px;
+  border: 1px solid black;
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+  position: relative;
+}
+
+#resetBtn {
+  background-color: green;
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: "Audiowide", cursive;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#p1FireScore {
+  font-size: 50px;
+  font-weight: bold;
+}
+#p2FireScore {
+  font-size: 50px;
+  font-weight: bold;
+}
